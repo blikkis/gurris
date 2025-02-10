@@ -10,7 +10,6 @@ import About from "./parts/about";
 import Contact from "./parts/contact";
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 100) {
