@@ -8,6 +8,7 @@ import Benk from "./assets/benk.jpg";
 import { Hytta, Benken } from "./parts/info";
 import About from "./parts/about";
 import Contact from "./parts/contact";
+import { ContactSchema } from "./parts/contact-schema";
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className="main">
       <Header isScrolled={isScrolled} />
-      <div className="main__content">
+      <div className="main__content" id="work">
         <WorkPart
           direction=""
           imgSrc={Hytte}
@@ -44,7 +45,8 @@ function App() {
           desc={Benken.desc}
         />
         <About />
-        <Contact />
+        <ContactSchema />
+        {/* <Contact /> */}
       </div>
     </div>
   );

@@ -14,12 +14,17 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }): React.ReactElement => {
             : "main__header__name scrolled"
         }
       >
-        <div className="main__header__name--1">ARKITEKT</div>{" "}
-        <div className="main__header__name--2">GURO REINAAS</div>
+        <a className="main__header__name--1" href="#">
+          ARKITEKT
+        </a>{" "}
+        <a className="main__header__name--2" href="#">
+          GURO REINAAS
+        </a>
       </div>
       <div className="main__header__menu">
+        <a href="#work">ARBEID</a>
         <a href="#about">OM</a>
-        <a href="#">ARBEID</a>
+        <a href="#contacts">KONTAKT</a>
       </div>
     </div>
   );
