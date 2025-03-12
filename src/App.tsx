@@ -7,7 +7,6 @@ import Hytte from "./assets/hytte.jpg";
 import Benk from "./assets/benk.jpg";
 import { Hytta, Benken } from "./parts/info";
 import About from "./parts/about";
-import Contact from "./parts/contact";
 import { ContactSchema } from "./parts/contact-schema";
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
