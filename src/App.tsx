@@ -1,13 +1,8 @@
 import { useState, useEffect } from "react";
 import "./main.less";
 import * as React from "react";
-import Header from "./parts/header";
-import WorkPart from "./parts/workpart";
-import Hytte from "./assets/hytte.jpg";
-import Benk from "./assets/benk.jpg";
-import { Hytta, Benken } from "./parts/info";
-import About from "./parts/about";
-import { ContactSchema } from "./parts/contact-schema";
+import Landing from "./landing/landingpage";
+
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   useEffect(() => {
@@ -29,7 +24,7 @@ function App() {
   }, []);
   return (
     <div className="main">
-      <Header isScrolled={isScrolled} />
+      {/* <Header isScrolled={isScrolled} />
       <div className="main__content" id="work">
         <WorkPart
           direction=""
@@ -44,9 +39,9 @@ function App() {
           desc={Benken.desc}
         />
         <About />
-        <ContactSchema />
-        {/* <Contact /> */}
-      </div>
+        <Footer />
+      </div> */}
+      <Landing />
     </div>
   );
 }

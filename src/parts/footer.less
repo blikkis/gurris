@@ -1,0 +1,54 @@
+.main__footer {
+  background-color: white;
+  width: 100%;
+  margin-top: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px 0px;
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    &__input {
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      input {
+        border: none;
+        border-bottom: 2px solid black;
+        font-size: 1.5rem;
+        width: 60%;
+        margin: 2px;
+      }
+    }
+    &__info {
+      font-size: 1.5rem;
+      width: 85%;
+      margin-top: 0;
+    }
+  }
+  &__about {
+    width: 40%;
+    img {
+      width: 300px;
+      height: fit-content;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      p {
+        margin: 0;
+      }
+      &__insta {
+        font-weight: bold;
+      }
+    }
+  }
+}
