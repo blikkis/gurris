@@ -21,7 +21,7 @@ const Landing = () => {
     <div className="landing">
       <div className="landing__content">
         <h3>
-          <a href="">instagram</a>
+          <a href="http://instagram.com/_u/arkitektguroreinaas">instagram</a>
         </h3>
         <div className="landing__content__image">
           <img src={benk} />
