@@ -34,7 +34,7 @@ const Landing = () => {
             {isMobile && <br />}
             <br />
             eller telefon:
-            {isMobile && <br />}
+            {isMobile ? <br /> : " "}
             936 45 996
             <br />
             <br />
