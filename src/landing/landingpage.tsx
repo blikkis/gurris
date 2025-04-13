@@ -1,5 +1,5 @@
 import * as React from "react";
-import benk from "../assets/benk.jpg";
+import benk from "../assets/landing.jpg";
 import "./landingpage.less";
 import { useState, useEffect } from "react";
 
